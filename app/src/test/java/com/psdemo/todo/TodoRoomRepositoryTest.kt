@@ -30,6 +30,7 @@ class TodoRoomRepositoryTest {
 
     @get:Rule
     val exceptionRule: ExpectedException = ExpectedException.none()
+
     private val now = System.currentTimeMillis()
     private val day = 1000 * 60 * 60 * 24
     private lateinit var db: TodoRoomDatabase
